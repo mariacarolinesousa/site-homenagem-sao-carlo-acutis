@@ -1,17 +1,25 @@
-
+ 
 .hero {
-  min-height: 100vh;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/carlo-acutis.jpg");
+    min-height: 100vh;
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.6)
+        ),
+        url("./imagens/images\ \(2\).webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .conteudo {
   color: white;
   text-align: center;
   padding: 100px 20px;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
 }
